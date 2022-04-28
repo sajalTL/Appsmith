@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Ex4-5 Form Validation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\tlet studentList = NameList.data\n\t\tlet studentIsPresent = false\n\t\tfor(let i = 0;i<=studentList.length;i++){\n\t\t\tlet studentInfo = studentList[i]\n\t\t\tif (studentInfo && studentInfo.name && Name.text == studentInfo.name){\n\t\t\tstudentIsPresent = true\n\t\t\tbreak\n\t\t}\n\t\t}\n\t\tif(studentIsPresent){\n         showAlert(Name.text + \" already exists\")\n    }\n\t}\n}",
+    "variables": []
+  },
+  "id": "Ex4-5 Form Validation_JSObject2",
+  "deleted": false,
+  "gitSyncId": "6209f51f1af27a3ccd65435b_6212821d52df83079ac94b1f"
+}

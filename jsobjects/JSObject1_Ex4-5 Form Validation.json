@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Ex4-5 Form Validation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\tif(Name.text==\"Tara\"){\n\t\t\tshowAlert(Name.text + \" already exists\")\n\t\t}\n\t}\n}",
+    "variables": []
+  },
+  "id": "Ex4-5 Form Validation_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6209f51f1af27a3ccd65435b_6212592752df83079ac94b17"
+}

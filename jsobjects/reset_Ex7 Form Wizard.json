@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "reset",
+    "pageId": "Ex7 Form Wizard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tresetWidget(\"Container2\",true)\n\t\tthis.myFun2()\n\t},\n\tmyFun2: async () => {\n\t\t{{storeValue('tab','Tab 1')}}\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Ex7 Form Wizard_reset",
+  "deleted": false,
+  "gitSyncId": "6209f51f1af27a3ccd65435b_621c387452df83079ac94ba2"
+}

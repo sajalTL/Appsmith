@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Api Post",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\t{{PostApi.run(() => (\nPostApi.responseMeta.statusCode === \"201 CREATED\" ?insert.run():null\n))}}\n\t}\n}",
+    "variables": []
+  },
+  "id": "Api Post_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6209f51f1af27a3ccd65435b_624a59cf9c18654bb5892eaa"
+}
